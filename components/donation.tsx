@@ -45,7 +45,7 @@ export default function Donation() {
           </Title>
         </Group>
         <Stack>
-          {donation.map((donationItem, index) => (
+          {donation.map((donationItem) => (
             <Paper shadow="xs" p="md" bg="cyan.2">
               <Group className="flex flex-col">
                 <Text className="mb-[-10px]">
